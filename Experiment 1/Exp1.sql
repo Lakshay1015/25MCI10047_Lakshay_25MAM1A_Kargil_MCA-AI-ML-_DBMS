@@ -1,4 +1,5 @@
 create database exp1;
+
 create table Department 
 (
 Deptid int PRIMARY KEY,
@@ -39,11 +40,11 @@ insert into Project(Projid, Projname, ProjstartDate, ProjendDate, ProjAssignEmp)
 (502,'Payout Maintainence','2026-01-28','2026-01-31',104),
 (503,'ERP Development','2026-01-01','2026-01-15',103),
 (504,'Tax Auditng for month','2026-01-20','2026-01-29',102),
-(505,'Market Funnet Analysis','2026-01-21','2026-01-30',101)
+(505,'Market Funnet Analysis','2026-01-21','2026-01-30',101),
 (506,'Brand Perception Analysis','2026-01-01','2026-01-31',101);
 
 UPDATE Employee
-SET Empphone = 6239787133
+SET Empphone = 9999888800
 WHERE Empid = 104;
 
 DELETE FROM Project
@@ -56,8 +57,9 @@ SELECT * FROM Department;
 SELECT * FROM Employee;
 SELECT * FROM Project;
 
-CREATE ROLE Manager LOGIN PASSWORD 'Manager@2020';
+CREATE ROLE Auditor LOGIN PASSWORD 'Audit@2020';
 
-GRANT SELECT ON Department, Employee, Project TO Manager;
-REVOKE SELECT ON Project FROM Manager;
+GRANT SELECT ON Department, Employee, Project TO Auditor;
+REVOKE SELECT ON Project FROM Auditor;
+
 
