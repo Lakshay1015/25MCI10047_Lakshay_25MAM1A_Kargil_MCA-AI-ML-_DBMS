@@ -120,7 +120,7 @@ insert into Department (Deptid, Deptname) values
 (1,'Marketing'),(2,'Finance'),(3,'IT'),(4,'HR');
 
 ```
-![Data Visualization](images/department table.png)
+![Data Visualization](images/department_table.png)
 ---
 
 #### Employees
@@ -133,7 +133,7 @@ insert into Employee(Empid, Empname, Empemail, Empphone, Deptid) values
 (104,'Priya','Priya@gamil.com',9876543210,4),
 (105,'Tushar','Tushar@gamil.com',7986015080,1);
 ```
-![Data Visualization](images/employee table.png)
+![Data Visualization](images/employee_table.png)
 ---
 
 #### Projects
@@ -150,7 +150,7 @@ insert into Project(Projid, Projname, ProjstartDate, ProjendDate, ProjAssignEmp)
 
 ---
 
-![Data Visualization](images/project table.png)
+![Data Visualization](images/project_table.png)
 
 ---
 
