@@ -54,7 +54,7 @@ INSERT INTO Violations VALUES
 ```
 
 ### Output
-![Output](images/coilation_table.png)
+![Output](images/voilation_table.png)
 
 ---
 
