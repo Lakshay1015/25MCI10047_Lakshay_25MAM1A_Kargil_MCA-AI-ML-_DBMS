@@ -54,7 +54,7 @@ INSERT INTO Violations VALUES
 ```
 
 ### Output
-![Output](images/voilation_table.png)
+![Data Visualization](images/Voilation_table.png)
 
 ---
 
@@ -72,7 +72,7 @@ FROM Violations;
 ```
 
 ### Output
-![Output](images/voilation_status.png)
+![Data Visualization](images/Voilation_status.png)
 
 ---
 
@@ -94,7 +94,7 @@ END;
 ```
 
 ### Output
-![Output](images/update_voilation.png)
+![Data Visualization](images/update_voilation.png)
 
 ---
 
@@ -118,7 +118,7 @@ END $$;
 ```
 
 ### Output
-![Output](images/if_else.png)
+![Data Visualization](images/if_else.png)
 
 ---
 
@@ -144,7 +144,7 @@ INSERT INTO Grades (student_name, marks) VALUES
 ('Sneha', 88);
 ```
 ### Output
-![Output](images/grade_table.png)
+![Data Visualization](images/grade_table.png)
 ```sql
 SELECT student_name, marks,
 CASE
@@ -159,7 +159,7 @@ FROM StudentGrades;
 ```
 
 ### Output
-![Output](images/grade_table_classify.png)
+![Data Visualization](images/grade_table_classify.png)
 
 ---
 
@@ -184,7 +184,7 @@ END;
 ```
 
 ### Output
-![Output](images/voilation_sort.png)
+![Data Visualization](images/voilation_sort.png)
 
 ---
 
