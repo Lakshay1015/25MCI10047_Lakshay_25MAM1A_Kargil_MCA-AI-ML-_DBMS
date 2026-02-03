@@ -85,7 +85,7 @@ $$;
 ``` 
 
 ### Output-
-![Data Visualization](images/SECOND(2).png)
+![Data Visualization](images/SECOND (2).png)
 ---
 
 ### Example 3: WHILE Loop -- Conditional Iteration
