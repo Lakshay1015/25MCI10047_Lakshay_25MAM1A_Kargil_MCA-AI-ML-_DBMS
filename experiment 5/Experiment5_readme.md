@@ -61,12 +61,11 @@ salary int
 );
 
 INSERT INTO employee (emp_name, experience, performance_score, salary) VALUES
-('Rahul', 2, 6, 30000),
-('Anita', 5, 8, 50000),
-('Vikas', 1, 5, 25000),
-('Neha', 7, 9, 70000),
-('Aman', 3, 6, 35000),
-('Pooja', 10, 10, 90000);
+('tushar', 2, 6, 30000),
+('priya', 5, 8, 50000),
+('neha', 1, 5, 25000),
+('lakshay', 7, 9, 70000),
+('sam', 3, 6, 35000);
 
 SELECT * FROM employee;
 ```
